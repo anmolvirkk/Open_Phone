@@ -1,0 +1,44 @@
+header {
+  background-color: #0e0e12;
+  position: fixed;
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header li {
+  color: #788ca0;
+  margin-right: 2rem;
+}
+.logo {
+  margin-left: -2.5rem;
+}
+.sales {
+  margin-right: 1rem;
+}
+.try {
+  margin-right: 0;
+}
+.try button {
+  background-image: linear-gradient(181.81deg, #6333ff 25%, #441ebf 75%);
+  border: 0;
+}
+header button {
+  color: #eef5f8;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  border-radius: 100px 100px;
+  overflow: hidden;
+  border: 2px solid #441ebf;
+  white-space: nowrap;
+}

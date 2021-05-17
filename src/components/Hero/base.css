@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.hero h1 {
+  font-size: 3.5rem;
+}
+.hero p {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+.hero button {
+  color: #eef5f8;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  border-radius: 100px 100px;
+  overflow: hidden;
+  background-image: linear-gradient(181.81deg, #6333ff 25%, #441ebf 75%);
+  border: 0;
+  white-space: nowrap;
+}

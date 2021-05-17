@@ -1,0 +1,23 @@
+.about {
+  width: 100%;
+  margin-top: 4rem;
+}
+.about img {
+  width: 100%;
+}
+.about article h2 {
+  font-size: 3rem;
+}
+.image {
+  height: 4rem;
+  width: 4rem;
+  background-color: #16161e;
+  padding: 1.2rem;
+  border-radius: 10rem 10rem;
+}
+.tiles img {
+  width: 100%;
+}
+.tiles p {
+  font-size: 0.85rem;
+}

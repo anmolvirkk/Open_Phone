@@ -1,0 +1,49 @@
+.howitworks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+  z-index: -1;
+}
+.howitworks h2 {
+  font-size: 3rem;
+}
+.howitworks ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-left: -4rem;
+  margin-top: 4rem;
+  align-items: flex-start;
+}
+.howitworks li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howitworks p {
+  color: #eef5f8;
+  text-align: center;
+  line-height: 1.5;
+}
+.arrow {
+  margin-top: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #16161e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #441ebf;
+  border-radius: 10rem 10rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}

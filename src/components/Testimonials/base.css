@@ -1,0 +1,148 @@
+.testContainer {
+  margin-top: 8rem;
+}
+.testTitle h2 {
+  font-size: 3rem;
+}
+.testTitle p {
+  margin-top: -1.5rem;
+  text-align: center;
+}
+.testColumn {
+  max-width: 23%;
+  flex-basis: 23%;
+}
+.testItem {
+  background-color: #16161e;
+  border-radius: 8px 24px 24px 24px;
+  margin: 3% !important;
+}
+.testItem p {
+  padding: 5% 10% 0 10%;
+  font-size: 0.85rem;
+}
+.testItem article {
+  display: flex;
+  padding: 0 10% 7% 10%;
+  align-items: center;
+}
+.testItem article div {
+  margin-left: 1rem;
+}
+.testItem img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 100rem 100rem;
+}
+.testItem h3 {
+  margin: 0;
+  margin-bottom: 0.1rem;
+  font-size: 1.1vw;
+}
+.testItem h4 {
+  margin: 0;
+  font-weight: 400;
+  color: #788ca0;
+  font-size: 0.8vw;
+}
+.review article {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.review article img {
+  width: 20%;
+}
+.review article h3 {
+  color: #788ca0;
+  line-height: 1.5;
+}
+.review article .rating {
+  width: 30%;
+}
+.review article a {
+  margin-top: 3vh;
+  color: #556782;
+  text-decoration: none;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #556782;
+}
+
+.awards {
+  width: 5%;
+  margin: 2% 5% 2% 5% !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.awards img {
+  width: 100%;
+}
+.shield {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 2rem;
+}
+.awards .shieldIcon {
+  height: 80%;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+}
+.awards p {
+  text-align: center;
+  margin: 0;
+  margin-top: 25%;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+
+.awards h3 {
+  background-color: #ff7d46;
+  padding: 1rem;
+  border-radius: 1rem 1rem;
+  width: 200%;
+  text-align: center;
+  font-size: 0.7rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.awards:nth-child(3) h3 {
+  background-color: #441ebf;
+}
+.awards:nth-child(4) h3 {
+  background-color: #4493b5;
+}
+.awards:nth-child(n + 5) h3 {
+  background-color: #538e55;
+}
+.awards:nth-child(n + 9) h3 {
+  background-color: #4493b5;
+}
+
+.trial button {
+  color: #eef5f8;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border-radius: 100px 100px;
+  overflow: hidden;
+  background-image: linear-gradient(181.81deg, #6333ff 25%, #441ebf 75%);
+  border: 0;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  margin-top: 5vh;
+}
